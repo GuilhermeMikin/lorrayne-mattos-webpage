@@ -1,0 +1,72 @@
+{
+  "format": "custom",
+  "id": "course",
+  "label": "Course",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": "Curso Presencial LM",
+          "useAsTitle": true
+        }
+      },
+      "summary": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Summary",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em"
+        }
+      },
+      "cta_label": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Label",
+          "placeholder": "Falar sobre o curso"
+        }
+      },
+      "modules": {
+        "type": "Group",
+        "config": {
+          "label": "Modules",
+          "fields": {
+            "module_title": {
+              "type": "Text",
+              "config": {
+                "label": "Module Title",
+                "placeholder": "Módulo"
+              }
+            }
+          }
+        }
+      },
+      "faq_items": {
+        "type": "Group",
+        "config": {
+          "label": "FAQ Items",
+          "fields": {
+            "question": {
+              "type": "Text",
+              "config": {
+                "label": "Question",
+                "placeholder": "Pergunta frequente"
+              }
+            },
+            "answer": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Answer",
+                "allowTargetBlank": true,
+                "multi": "paragraph,strong,em,list-item,o-list-item"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

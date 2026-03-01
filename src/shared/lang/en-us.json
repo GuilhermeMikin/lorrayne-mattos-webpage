@@ -1,0 +1,177 @@
+{
+  "SEO": {
+    "title": "Lorrayne Mattos | Biomedical Aesthetics",
+    "description": "Advanced aesthetics, eye area harmonization, and natural facial rejuvenation with Lorrayne Mattos in Uberlandia - MG.",
+    "keywords": "Lorrayne Mattos, biomedical aesthetics, facial rejuvenation, brow design, lash lifting, Uberlandia",
+    "pages": {
+      "home": {
+        "title": "Lorrayne Mattos | Biomedical Aesthetics in Uberlandia",
+        "description": "Explore procedures, learn about the LM in-person course, and start a WhatsApp-first booking flow."
+      },
+      "about": {
+        "title": "About | Lorrayne Mattos",
+        "description": "Meet Lorrayne Mattos, biomedical aesthetics professional focused on natural, safe, and personalized facial care."
+      },
+      "procedures": {
+        "title": "Procedures | Lorrayne Mattos",
+        "description": "Browse the procedure catalog and learn about eye area and facial aesthetics services."
+      },
+      "course": {
+        "title": "LM In-Person Course | Lorrayne Mattos",
+        "description": "A practical course experience focused on technique, safety, and client-centered results."
+      },
+      "contact": {
+        "title": "Contact | Lorrayne Mattos",
+        "description": "Book via WhatsApp and reach Lorrayne through Instagram or location links."
+      },
+      "privacy_policy": {
+        "title": "Privacy Policy | Lorrayne Mattos",
+        "description": "Read the initial privacy and data handling policy for the Lorrayne Mattos website."
+      }
+    }
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "back_home": "Back home",
+    "back_to_procedures": "Back to procedures"
+  },
+  "header": {
+    "brand_name": "Lorrayne Mattos",
+    "tagline": "Biomedical aesthetics and natural facial harmony",
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "procedures": "Procedures",
+      "course": "Course",
+      "contact": "Contact"
+    },
+    "primary_cta": "Book on WhatsApp",
+    "menu_open_label": "Open menu",
+    "menu_close_label": "Close menu",
+    "language_label": "Language",
+    "theme": {
+      "label": "Theme",
+      "light_label": "Light",
+      "dark_label": "Dark"
+    }
+  },
+  "footer": {
+    "copyright": "©2026 Lorrayne Mattos. All rights reserved.",
+    "note": "Natural results, individualized planning, and a careful client experience.",
+    "links": {
+      "instagram": "Instagram",
+      "location": "Location",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "eyebrow": "Biomedical aesthetics in Uberlandia - MG",
+        "title": "Fall in love with the act of caring for yourself.",
+        "description": "Advanced aesthetics and eye area harmonization focused on natural, safe, and personalized results.",
+        "primary_cta": "Book appointment",
+        "secondary_cta": "View procedures"
+      },
+      "trust": {
+        "title": "Why clients choose Lorrayne",
+        "bullets": [
+          "3k+ appointments",
+          "Individualized planning",
+          "Natural and safe results"
+        ]
+      },
+      "featured_procedures": {
+        "title": "Featured procedures",
+        "description": "Treatments designed to enhance your features with precision, softness, and personalized evaluation.",
+        "details_cta": "View details"
+      },
+      "course_teaser": {
+        "title": "LM In-Person Course",
+        "description": "A practical training experience for professionals seeking technique, safety, and a better client journey.",
+        "cta": "Explore the course"
+      },
+      "contact_strip": {
+        "title": "Ready to start?",
+        "description": "Use the channel that fits best: WhatsApp for booking, Instagram for updates, and Maps for directions.",
+        "whatsapp_label": "WhatsApp booking",
+        "instagram_label": "Instagram",
+        "location_label": "Location"
+      }
+    },
+    "about": {
+      "title": "About Lorrayne Mattos",
+      "intro": "Lorrayne Mattos is a biomedical aesthetics professional based in Uberlandia - MG, focused on facial care and eye area harmonization with a natural-result approach.",
+      "story": [
+        "Her positioning combines technique, individualized evaluation, and a careful client journey from the first conversation to the final result.",
+        "The website is being prepared to communicate procedures, course offerings, and trust signals with the same clarity used in the in-person experience."
+      ],
+      "highlights": [
+        "Advanced aesthetics",
+        "Eye area harmonization",
+        "Natural facial rejuvenation"
+      ],
+      "cta_label": "Book my appointment"
+    },
+    "procedures": {
+      "title": "Procedures",
+      "intro": "Browse the initial procedure structure. Final descriptions, galleries, and categorization will be populated from Prismic.",
+      "category_label": "Category",
+      "booking_cta": "Book on WhatsApp",
+      "empty_state": "Procedures will appear here as soon as content is published."
+    },
+    "procedure_detail": {
+      "category_label": "Category",
+      "booking_cta": "Book procedure",
+      "not_found_title": "Procedure not found",
+      "not_found_description": "This procedure is not available yet. Return to the procedures list or contact Lorrayne directly."
+    },
+    "course": {
+      "eyebrow": "Professional training",
+      "title": "LM In-Person Course",
+      "intro": "A practical and structured learning path for professionals who want to improve technique, safety, and client experience.",
+      "highlights_title": "What the initial structure includes",
+      "faq_title": "Frequently asked questions",
+      "booking_cta": "Ask about the course"
+    },
+    "contact": {
+      "title": "Booking and contact",
+      "intro": "Send a short message and open WhatsApp with your text pre-filled. Instagram and location links stay available as secondary actions.",
+      "form": {
+        "name_label": "Your name",
+        "business_type_label": "Procedure or interest",
+        "description_label": "Message",
+        "submit_label": "Send on WhatsApp",
+        "whatsapp_message_template": "Hello, Lorrayne! I came through your website. My name is {name} and I am interested in {projectType}. {description}"
+      },
+      "channels_title": "Other contact paths",
+      "channels_intro": "Use the channel that makes the most sense for what you need right now.",
+      "whatsapp_label": "Open WhatsApp",
+      "instagram_label": "Open Instagram",
+      "location_label": "Open Maps"
+    },
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "intro": "This is an initial placeholder policy until the final legal copy is approved.",
+      "sections": [
+        {
+          "title": "Collected data",
+          "body": "The website may process the data you voluntarily share through the WhatsApp-first contact flow."
+        },
+        {
+          "title": "Usage",
+          "body": "Data is used only to answer booking, service, and course inquiries."
+        },
+        {
+          "title": "Updates",
+          "body": "This policy will be revised when final business, analytics, and CMS flows are confirmed."
+        }
+      ]
+    }
+  },
+  "under_construction": {
+    "title": "This page is under construction",
+    "description": "We are preparing this content. Use Home, Procedures, Course, or Contact for now.",
+    "back_home_label": "Back to home"
+  }
+}

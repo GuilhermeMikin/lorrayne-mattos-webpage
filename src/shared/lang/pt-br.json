@@ -1,0 +1,177 @@
+{
+  "SEO": {
+    "title": "Lorrayne Mattos | Biomédica Esteta",
+    "description": "Estética avançada, harmonização do olhar e rejuvenescimento facial natural com Lorrayne Mattos em Uberlândia - MG.",
+    "keywords": "Lorrayne Mattos, biomédica esteta, rejuvenescimento facial, design de sobrancelhas, lash lifting, Uberlândia",
+    "pages": {
+      "home": {
+        "title": "Lorrayne Mattos | Biomédica Esteta em Uberlândia",
+        "description": "Conheça os procedimentos, o Curso Presencial LM e inicie um agendamento com fluxo principal pelo WhatsApp."
+      },
+      "about": {
+        "title": "Sobre | Lorrayne Mattos",
+        "description": "Conheça a atuação da Lorrayne Mattos em estética avançada, harmonização do olhar e cuidado facial natural."
+      },
+      "procedures": {
+        "title": "Procedimentos | Lorrayne Mattos",
+        "description": "Explore a estrutura inicial de procedimentos e a futura navegação detalhada por serviço."
+      },
+      "course": {
+        "title": "Curso Presencial LM | Lorrayne Mattos",
+        "description": "Uma experiência prática de formação com foco em técnica, segurança e atendimento humanizado."
+      },
+      "contact": {
+        "title": "Contato | Lorrayne Mattos",
+        "description": "Agende pelo WhatsApp e acesse também Instagram e localização."
+      },
+      "privacy_policy": {
+        "title": "Política de Privacidade | Lorrayne Mattos",
+        "description": "Leia a política inicial de privacidade e tratamento de dados do site da Lorrayne Mattos."
+      }
+    }
+  },
+  "common": {
+    "learn_more": "Saiba mais",
+    "back_home": "Voltar ao início",
+    "back_to_procedures": "Voltar para procedimentos"
+  },
+  "header": {
+    "brand_name": "Lorrayne Mattos",
+    "tagline": "Estética avançada e harmonização facial natural",
+    "navigation": {
+      "home": "Início",
+      "about": "Sobre",
+      "procedures": "Procedimentos",
+      "course": "Curso",
+      "contact": "Contato"
+    },
+    "primary_cta": "Agendar no WhatsApp",
+    "menu_open_label": "Abrir menu",
+    "menu_close_label": "Fechar menu",
+    "language_label": "Idioma",
+    "theme": {
+      "label": "Tema",
+      "light_label": "Claro",
+      "dark_label": "Escuro"
+    }
+  },
+  "footer": {
+    "copyright": "©2026 Lorrayne Mattos. Todos os direitos reservados.",
+    "note": "Resultados naturais, planejamento individualizado e atendimento cuidadoso em cada etapa.",
+    "links": {
+      "instagram": "Instagram",
+      "location": "Localização",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "eyebrow": "Biomédica Esteta em Uberlândia - MG",
+        "title": "Apaixone-se pelo ato de se cuidar.",
+        "description": "Estética avançada e harmonização do olhar com foco em resultados naturais, seguros e personalizados.",
+        "primary_cta": "Agendar atendimento",
+        "secondary_cta": "Ver procedimentos"
+      },
+      "trust": {
+        "title": "Por que escolher a Lorrayne",
+        "bullets": [
+          "+3 mil atendimentos",
+          "Planejamento individualizado",
+          "Resultados naturais e seguros"
+        ]
+      },
+      "featured_procedures": {
+        "title": "Procedimentos em destaque",
+        "description": "Atendimentos pensados para valorizar sua beleza com precisão, leveza e avaliação personalizada.",
+        "details_cta": "Ver detalhes"
+      },
+      "course_teaser": {
+        "title": "Curso Presencial LM",
+        "description": "Uma experiência prática e completa para quem busca técnica, segurança e um atendimento mais consistente.",
+        "cta": "Conhecer o curso"
+      },
+      "contact_strip": {
+        "title": "Pronta para começar?",
+        "description": "Escolha o canal ideal para o seu momento: WhatsApp para agendar, Instagram para novidades e Maps para chegar ao espaço.",
+        "whatsapp_label": "Agendamento no WhatsApp",
+        "instagram_label": "Instagram",
+        "location_label": "Localização"
+      }
+    },
+    "about": {
+      "title": "Sobre Lorrayne Mattos",
+      "intro": "Sou a Lorrayne Mattos, Biomédica Esteta em Uberlândia - MG. Atuo com procedimentos faciais e do olhar, unindo técnica, avaliação individualizada e cuidado em cada etapa para realçar sua beleza com naturalidade.",
+      "story": [
+        "Meu posicionamento é centrado em resultados naturais, atendimento seguro e uma experiência acolhedora desde o primeiro contato.",
+        "Este site está sendo preparado para organizar procedimentos, curso e conteúdos editoriais com a mesma clareza que faz parte do atendimento presencial."
+      ],
+      "highlights": [
+        "Estética avançada",
+        "Harmonização do olhar",
+        "Rejuvenescimento facial natural"
+      ],
+      "cta_label": "Agendar meu atendimento"
+    },
+    "procedures": {
+      "title": "Procedimentos",
+      "intro": "Explore a estrutura inicial dos procedimentos. Descrições finais, galerias e detalhamento por serviço serão publicados via Prismic.",
+      "category_label": "Categoria",
+      "booking_cta": "Agendar no WhatsApp",
+      "empty_state": "Os procedimentos aparecerão aqui assim que o conteúdo for publicado."
+    },
+    "procedure_detail": {
+      "category_label": "Categoria",
+      "booking_cta": "Agendar procedimento",
+      "not_found_title": "Procedimento não encontrado",
+      "not_found_description": "Este procedimento ainda não está disponível. Volte para a listagem ou fale com a Lorrayne diretamente."
+    },
+    "course": {
+      "eyebrow": "Formação profissional",
+      "title": "Curso Presencial LM",
+      "intro": "Uma trilha prática e estruturada para quem deseja evoluir em técnica, segurança e experiência de atendimento.",
+      "highlights_title": "O que a estrutura inicial contempla",
+      "faq_title": "Perguntas frequentes",
+      "booking_cta": "Falar sobre o curso"
+    },
+    "contact": {
+      "title": "Contato e agendamento",
+      "intro": "Envie uma mensagem curta e abra o WhatsApp com o texto preenchido. Instagram e localização ficam como caminhos secundários de apoio.",
+      "form": {
+        "name_label": "Seu nome",
+        "business_type_label": "Procedimento ou interesse",
+        "description_label": "Mensagem",
+        "submit_label": "Enviar no WhatsApp",
+        "whatsapp_message_template": "Olá, Lorrayne! Vim através do seu site. Meu nome é {name} e tenho interesse em {projectType}. {description}"
+      },
+      "channels_title": "Outros caminhos de contato",
+      "channels_intro": "Use o canal que fizer mais sentido para o que você precisa agora.",
+      "whatsapp_label": "Abrir WhatsApp",
+      "instagram_label": "Abrir Instagram",
+      "location_label": "Abrir Maps"
+    },
+    "privacy_policy": {
+      "title": "Política de Privacidade",
+      "intro": "Esta é uma política inicial e temporária até a aprovação do texto legal definitivo.",
+      "sections": [
+        {
+          "title": "Dados coletados",
+          "body": "O site pode processar apenas os dados que você compartilha voluntariamente ao iniciar o contato via WhatsApp."
+        },
+        {
+          "title": "Uso das informações",
+          "body": "As informações são utilizadas somente para responder dúvidas, pedidos de agendamento e interesse em procedimentos ou curso."
+        },
+        {
+          "title": "Atualizações",
+          "body": "Esta política será revisada quando os fluxos finais de negócio, analytics e CMS forem confirmados."
+        }
+      ]
+    }
+  },
+  "under_construction": {
+    "title": "Esta página está em construção",
+    "description": "Estamos preparando este conteúdo. Use Início, Procedimentos, Curso ou Contato por enquanto.",
+    "back_home_label": "Voltar ao início"
+  }
+}
