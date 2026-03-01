@@ -1,6 +1,6 @@
 # AI Context Pack
 
-Purpose: help AI assistants work on the Lorrayne Mattos site with minimal tokens and minimal regressions.
+Purpose: help AI assistants work on the Dra. Lorrayne Mattos site with minimal tokens and minimal regressions.
 
 ## Start Here
 

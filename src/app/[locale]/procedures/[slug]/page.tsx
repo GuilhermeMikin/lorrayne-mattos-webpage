@@ -31,7 +31,7 @@ export async function generateMetadata({
 
   const canonicalPath = getLocalePath(safeLocale, `procedures/${procedure.slug}`);
   return {
-    title: `${procedure.title} | Lorrayne Mattos`,
+    title: `${procedure.title} | Dra. Lorrayne Mattos`,
     description: procedure.description,
     alternates: {
       canonical: buildAbsoluteUrl(canonicalPath),

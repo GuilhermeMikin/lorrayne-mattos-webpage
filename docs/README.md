@@ -1,6 +1,6 @@
 # Documentation Index
 
-This repository uses a lean, spec-driven docs structure to guide the Lorrayne Mattos website scaffold and future implementation work. Active docs live outside `docs/template-specs/`; templates remain untouched as reusable references.
+This repository uses a lean, spec-driven docs structure to guide the Dra. Lorrayne Mattos website scaffold and future implementation work. Active docs live outside `docs/template-specs/`; templates remain untouched as reusable references.
 
 ## Reality Check
 

@@ -1,32 +1,32 @@
 {
   "SEO": {
-    "title": "Lorrayne Mattos | Biomédica Esteta",
-    "description": "Estética avançada, harmonização do olhar e rejuvenescimento facial natural com Lorrayne Mattos em Uberlândia - MG.",
-    "keywords": "Lorrayne Mattos, biomédica esteta, rejuvenescimento facial, design de sobrancelhas, lash lifting, Uberlândia",
+    "title": "Dra. Lorrayne Mattos | Biomédica Esteta",
+    "description": "Estética avançada, harmonização do olhar e rejuvenescimento facial natural com Dra. Lorrayne Mattos em Uberlândia - MG.",
+    "keywords": "Dra. Lorrayne Mattos, biomédica esteta, rejuvenescimento facial, design de sobrancelhas, lash lifting, Uberlândia",
     "pages": {
       "home": {
-        "title": "Lorrayne Mattos | Biomédica Esteta em Uberlândia",
-        "description": "Conheça os procedimentos, o Curso Presencial LM e inicie um agendamento com fluxo principal pelo WhatsApp."
+        "title": "Dra. Lorrayne Mattos | Biomédica Esteta em Uberlândia",
+        "description": "Conheça os procedimentos, as Mentorias LM e inicie um agendamento com fluxo principal pelo WhatsApp."
       },
       "about": {
-        "title": "Sobre | Lorrayne Mattos",
-        "description": "Conheça a atuação da Lorrayne Mattos em estética avançada, harmonização do olhar e cuidado facial natural."
+        "title": "Sobre | Dra. Lorrayne Mattos",
+        "description": "Conheça a atuação da Dra. Lorrayne Mattos em estética avançada, harmonização do olhar e cuidado facial natural."
       },
       "procedures": {
-        "title": "Procedimentos | Lorrayne Mattos",
+        "title": "Procedimentos | Dra. Lorrayne Mattos",
         "description": "Explore a estrutura inicial de procedimentos e a futura navegação detalhada por serviço."
       },
       "course": {
-        "title": "Curso Presencial LM | Lorrayne Mattos",
-        "description": "Uma experiência prática de formação com foco em técnica, segurança e atendimento humanizado."
+        "title": "Mentorias LM | Dra. Lorrayne Mattos",
+        "description": "Uma experiência prática de mentoria com foco em técnica, segurança e atendimento humanizado."
       },
       "contact": {
-        "title": "Contato | Lorrayne Mattos",
+        "title": "Contato | Dra. Lorrayne Mattos",
         "description": "Agende pelo WhatsApp e acesse também Instagram e localização."
       },
       "privacy_policy": {
-        "title": "Política de Privacidade | Lorrayne Mattos",
-        "description": "Leia a política inicial de privacidade e tratamento de dados do site da Lorrayne Mattos."
+        "title": "Política de Privacidade | Dra. Lorrayne Mattos",
+        "description": "Leia a política inicial de privacidade e tratamento de dados do site da Dra. Lorrayne Mattos."
       }
     }
   },
@@ -36,13 +36,13 @@
     "back_to_procedures": "Voltar para procedimentos"
   },
   "header": {
-    "brand_name": "Lorrayne Mattos ✨",
-    "tagline": "Estética avançada e harmonização facial natural",
+    "brand_name": "Dra. Lorrayne Mattos ✨",
+    "tagline": "Biomédica Esteta - Estética Avançada",
     "navigation": {
       "home": "Início",
       "about": "Sobre",
       "procedures": "Procedimentos",
-      "course": "Curso",
+      "course": "Mentorias",
       "contact": "Contato"
     },
     "primary_cta": "Agendar no WhatsApp",
@@ -56,7 +56,7 @@
     }
   },
   "footer": {
-    "copyright": "©2026 Lorrayne Mattos. Todos os direitos reservados.",
+    "copyright": "©2026 Dra. Lorrayne Mattos. Todos os direitos reservados.",
     "note": "Resultados naturais, planejamento individualizado e atendimento cuidadoso em cada etapa.",
     "links": {
       "instagram": "Instagram",
@@ -87,9 +87,10 @@
         "details_cta": "Ver detalhes"
       },
       "course_teaser": {
-        "title": "Curso Presencial LM",
+        "title": "Mentorias LM",
         "description": "Uma experiência prática e completa para quem busca técnica, segurança e um atendimento mais consistente.",
-        "cta": "Conhecer o curso"
+        "cta": "Conhecer as mentorias",
+        "coming_soon": "As mentorias serão lançadas em breve."
       },
       "contact_strip": {
         "title": "Pronta para começar?",
@@ -100,11 +101,11 @@
       }
     },
     "about": {
-      "title": "Sobre Lorrayne Mattos",
-      "intro": "Sou a Lorrayne Mattos, Biomédica Esteta em Uberlândia - MG. Atuo com procedimentos faciais e do olhar, unindo técnica, avaliação individualizada e cuidado em cada etapa para realçar sua beleza com naturalidade.",
+      "title": "Sobre Dra. Lorrayne Mattos",
+      "intro": "Sou a Dra. Lorrayne Mattos, Biomédica Esteta em Uberlândia - MG. Atuo com procedimentos faciais e do olhar, unindo técnica, avaliação individualizada e cuidado em cada etapa para realçar sua beleza com naturalidade.",
       "story": [
         "Meu posicionamento é centrado em resultados naturais, atendimento seguro e uma experiência acolhedora desde o primeiro contato.",
-        "Este site está sendo preparado para organizar procedimentos, curso e conteúdos editoriais com a mesma clareza que faz parte do atendimento presencial."
+        "Este site está sendo preparado para organizar procedimentos, mentorias e conteúdos editoriais com a mesma clareza que faz parte do atendimento presencial."
       ],
       "highlights": [
         "Estética avançada",
@@ -128,11 +129,12 @@
     },
     "course": {
       "eyebrow": "Formação profissional",
-      "title": "Curso Presencial LM",
+      "title": "Mentorias LM",
       "intro": "Uma trilha prática e estruturada para quem deseja evoluir em técnica, segurança e experiência de atendimento.",
       "highlights_title": "O que a estrutura inicial contempla",
       "faq_title": "Perguntas frequentes",
-      "booking_cta": "Falar sobre o curso"
+      "booking_cta": "Falar sobre as mentorias",
+      "coming_soon": "As mentorias serão lançadas em breve."
     },
     "contact": {
       "title": "Contato e agendamento",
@@ -160,7 +162,7 @@
         },
         {
           "title": "Uso das informações",
-          "body": "As informações são utilizadas somente para responder dúvidas, pedidos de agendamento e interesse em procedimentos ou curso."
+          "body": "As informações são utilizadas somente para responder dúvidas, pedidos de agendamento e interesse em procedimentos ou mentorias."
         },
         {
           "title": "Atualizações",
@@ -171,7 +173,7 @@
   },
   "under_construction": {
     "title": "Esta página está em construção",
-    "description": "Estamos preparando este conteúdo. Use Início, Procedimentos, Curso ou Contato por enquanto.",
+    "description": "Estamos preparando este conteúdo. Use Início, Procedimentos, Mentorias ou Contato por enquanto.",
     "back_home_label": "Voltar ao início"
   }
 }

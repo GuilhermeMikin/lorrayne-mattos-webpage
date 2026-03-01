@@ -5,7 +5,6 @@ import { DEFAULT_LOCALE, LOCALE_LANGUAGE_TAGS } from "@/shared/config/locales";
 import JsonLd from "@/shared/components/JsonLd";
 import LocaleLangSync from "@/shared/components/LocaleLangSync";
 import {
-  DEFAULT_OG_IMAGE,
   SITE_DESCRIPTION,
   SITE_TITLE,
   SITE_URL,
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   icons: {
-    icon: DEFAULT_OG_IMAGE,
+    icon: "/icon.png",
   },
 };
 

@@ -1,4 +1,4 @@
-# Lorrayne Mattos Business Spec
+# Dra. Lorrayne Mattos Business Spec
 
 **Status:** Active  
 **Last updated:** 2026-03-01
@@ -7,7 +7,7 @@
 
 ## Mission
 
-Create a multilingual marketing and portfolio website for **Lorrayne Mattos**, a **Biomédica Esteta** based in **Uberlândia - MG**, focused on estética avançada, harmonização do olhar, and rejuvenescimento facial natural. The site should help prospective clients understand the procedures, build trust through positioning and results, and convert quickly into **WhatsApp-first appointments**.
+Create a multilingual marketing and portfolio website for **Dra. Lorrayne Mattos**, a **Biomédica Esteta** based in **Uberlândia - MG**, focused on estética avançada, harmonização do olhar, and rejuvenescimento facial natural. The site should help prospective clients understand the procedures, build trust through positioning and results, and convert quickly into **WhatsApp-first appointments**.
 
 ---
 
@@ -204,7 +204,7 @@ Initial palette direction is based on the current Bio Site gradient and beauty/c
 
 ### Short bio (Home/About)
 
-Sou a **Lorrayne Mattos**, **Biomedica Esteta** em Uberlandia-MG. Atuo com procedimentos faciais e do olhar, unindo tecnica, avaliacao individualizada e cuidado em cada etapa para realcar sua beleza com naturalidade.
+Sou a **Dra. Lorrayne Mattos**, **Biomedica Esteta** em Uberlandia-MG. Atuo com procedimentos faciais e do olhar, unindo tecnica, avaliacao individualizada e cuidado em cada etapa para realcar sua beleza com naturalidade.
 
 ### Trust bullets
 

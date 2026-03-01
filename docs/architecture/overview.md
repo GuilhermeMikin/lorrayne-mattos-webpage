@@ -1,6 +1,6 @@
 # Architecture Overview
 
-This architecture serves a multilingual aesthetics marketing site focused on lead generation, trust building, and scalable CMS-backed service content for **Lorrayne Mattos**.
+This architecture serves a multilingual aesthetics marketing site focused on lead generation, trust building, and scalable CMS-backed service content for **Dra. Lorrayne Mattos**.
 
 ## Stack
 

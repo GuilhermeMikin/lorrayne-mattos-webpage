@@ -9,7 +9,9 @@ const aliasToCanonicalMap: Record<SupportedLocale, Record<string, CanonicalPageP
     "book-now": "contact",
     "contact-us": "contact",
     privacy: "privacy-policy",
-    course: "course/lm"
+    course: "course/lm",
+    mentorships: "course/lm",
+    "mentorships-lm": "course/lm"
   },
   "pt-br": {
     sobre: "about",
@@ -20,6 +22,8 @@ const aliasToCanonicalMap: Record<SupportedLocale, Record<string, CanonicalPageP
     "agende-seu-horario": "contact",
     "curso-presencial-lm": "course/lm",
     "curso-lm": "course/lm",
+    "mentorias-lm": "course/lm",
+    "mentorias": "course/lm",
     "politica-de-privacidade": "privacy-policy"
   }
 };

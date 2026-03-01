@@ -82,6 +82,7 @@ export interface LocaleMessages {
         title: string;
         description: string;
         cta: string;
+        coming_soon: string;
       };
       contact_strip: {
         title: string;
@@ -118,6 +119,7 @@ export interface LocaleMessages {
       highlights_title: string;
       faq_title: string;
       booking_cta: string;
+      coming_soon: string;
     };
     contact: {
       title: string;

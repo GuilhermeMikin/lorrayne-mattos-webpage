@@ -16,7 +16,7 @@ const COURSE_TYPE = "course";
 const FALLBACK_COURSE: Record<SupportedLocale, Omit<CourseData, "locale" | "source">> = {
   "pt-br": {
     slug: "lm",
-    title: "Curso Presencial LM",
+    title: "Mentorias LM",
     description:
       "Experiência prática e completa para quem busca dominar técnicas com segurança, atendimento humanizado e visão de resultado.",
     modules: [
@@ -26,7 +26,7 @@ const FALLBACK_COURSE: Record<SupportedLocale, Omit<CourseData, "locale" | "sour
     ],
     faq: [
       {
-        question: "Para quem este curso é indicado?",
+        question: "Para quem estas mentorias são indicadas?",
         answer: "A versão final detalhará público, pré-requisitos e formato diretamente no CMS.",
       },
       {
@@ -34,13 +34,13 @@ const FALLBACK_COURSE: Record<SupportedLocale, Omit<CourseData, "locale" | "sour
         answer: "Datas, local, módulos finais e CTA de inscrição serão preenchidos via Prismic.",
       },
     ],
-    ctaLabel: "Falar sobre o curso",
+    ctaLabel: "Falar sobre as mentorias",
   },
   "en-us": {
     slug: "lm",
-    title: "LM In-Person Course",
+    title: "LM Mentorships",
     description:
-      "A practical learning experience for professionals seeking confident technique, client care, and result-driven execution.",
+      "A practical mentorship experience for professionals seeking confident technique, client care, and result-driven execution.",
     modules: [
       "Assessment and individualized planning foundations",
       "Eye area and brow techniques with a natural-result focus",
@@ -48,7 +48,7 @@ const FALLBACK_COURSE: Record<SupportedLocale, Omit<CourseData, "locale" | "sour
     ],
     faq: [
       {
-        question: "Who is this course for?",
+        question: "Who are these mentorships for?",
         answer: "The final content will define target audience, prerequisites, and delivery format in Prismic.",
       },
       {
@@ -56,7 +56,7 @@ const FALLBACK_COURSE: Record<SupportedLocale, Omit<CourseData, "locale" | "sour
         answer: "Dates, venue, final modules, and enrollment CTA will be populated through the CMS.",
       },
     ],
-    ctaLabel: "Ask about the course",
+    ctaLabel: "Ask about mentorships",
   },
 };
 

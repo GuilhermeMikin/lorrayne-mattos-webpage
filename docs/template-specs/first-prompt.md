@@ -1,9 +1,9 @@
-i want you to help me to build a new webpage for Lorrayne Mattos (default pt-br, same way), following deboras site format/specs. give me a prompt asking for cursor to start the project by organizing the docs and planning what we need to do to get to the full website. look what i have:
+i want you to help me to build a new webpage for Dra. Lorrayne Mattos (default pt-br, same way), following deboras site format/specs. give me a prompt asking for cursor to start the project by organizing the docs and planning what we need to do to get to the full website. look what i have:
 mikin:lorrayne-mattos-webpage/ (master✗) $ tree -L 3                                          [3:56:03]
 .
 ├── docs
 │   ├── references
-│   │   └── Lorrayne Mattos — Bio Sites.pdf
+│   │   └── Dra. Lorrayne Mattos — Bio Sites.pdf
 │   └── template-specs
 │       ├── business-spec.md
 │       ├── content-guidelines.md

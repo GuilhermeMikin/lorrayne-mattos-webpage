@@ -77,8 +77,8 @@ export default async function AboutPage({ params }: AboutPageProps) {
         <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] border border-white/40 bg-white/30 shadow-xl shadow-brand/10">
           <div className="absolute inset-0 bg-[linear-gradient(180deg,#f6e9df_0%,#e2c4af_40%,#b8896d_100%)]" />
           <Image
-            src="/lorrayne.png"
-            alt="Lorrayne Mattos"
+            src="/lorrayne1.jpeg"
+            alt="Dra. Lorrayne Mattos"
             fill
             priority
             className="object-cover"

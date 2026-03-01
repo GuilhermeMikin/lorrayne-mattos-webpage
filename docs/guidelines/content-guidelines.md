@@ -7,7 +7,7 @@
 - Avoid exaggerated claims, medical overpromises, or vague luxury filler.
 - Emphasize safety, personalization, and natural-looking results.
 
-## Lorrayne Mattos Brand Consistency
+## Dra. Lorrayne Mattos Brand Consistency
 
 - Position Lorrayne as a **Biomedica Esteta** with authority in harmonizacao do olhar and facial rejuvenation.
 - Keep procedure descriptions clear, practical, and client-centered.

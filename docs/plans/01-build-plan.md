@@ -1,11 +1,11 @@
-# Lorrayne Mattos Website Build Plan
+# Dra. Lorrayne Mattos Website Build Plan
 
 - Status: Active
 - Date: 2026-03-01
 
 ## Objective
 
-Build a multilingual marketing and portfolio website for **Lorrayne Mattos** modeled after the Debora Lima structure, with `pt-br` hidden in public URLs, `en-us` prefixed, and Prismic as the primary source for procedures, portfolio media, and course content.
+Build a multilingual marketing and portfolio website for **Dra. Lorrayne Mattos** modeled after the Debora Lima structure, with `pt-br` hidden in public URLs, `en-us` prefixed, and Prismic as the primary source for procedures, portfolio media, and course content.
 
 ## 5.1 Information Architecture
 
@@ -122,7 +122,7 @@ Implementation order:
 - Keep canonical slugs stable and in English.
 - Support localized aliases through redirects only.
 - Metadata rules:
-  - Global template: `{page_or_procedure_title} | Lorrayne Mattos`
+  - Global template: `{page_or_procedure_title} | Dra. Lorrayne Mattos`
   - Local pages should mention `Uberlandia - MG` where useful for discovery
   - Procedure detail pages should pull title, summary, and media from Prismic
   - Alternate tags should expose `pt-BR` and `en-US`

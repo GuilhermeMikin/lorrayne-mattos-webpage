@@ -10,7 +10,7 @@
         "type": "Text",
         "config": {
           "label": "Brand Name",
-          "placeholder": "Lorrayne Mattos",
+          "placeholder": "Dra. Lorrayne Mattos",
           "useAsTitle": true
         }
       },

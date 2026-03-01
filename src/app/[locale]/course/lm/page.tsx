@@ -50,6 +50,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
         <p className="mt-5 max-w-3xl text-base leading-7 text-slate-700 dark:text-slate-300">
           {course.description}
         </p>
+        <p className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-medium text-amber-800 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
+          {coursePage.coming_soon}
+        </p>
         <a
           href={siteSettings.whatsappHref}
           target="_blank"

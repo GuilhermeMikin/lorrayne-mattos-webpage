@@ -10,7 +10,7 @@
         "type": "Text",
         "config": {
           "label": "Title",
-          "placeholder": "Curso Presencial LM",
+          "placeholder": "Mentorias LM",
           "useAsTitle": true
         }
       },
@@ -26,7 +26,7 @@
         "type": "Text",
         "config": {
           "label": "CTA Label",
-          "placeholder": "Falar sobre o curso"
+          "placeholder": "Falar sobre as mentorias"
         }
       },
       "modules": {

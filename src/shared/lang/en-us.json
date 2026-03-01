@@ -1,32 +1,32 @@
 {
   "SEO": {
-    "title": "Lorrayne Mattos | Biomedical Aesthetics",
-    "description": "Advanced aesthetics, eye area harmonization, and natural facial rejuvenation with Lorrayne Mattos in Uberlandia - MG.",
-    "keywords": "Lorrayne Mattos, biomedical aesthetics, facial rejuvenation, brow design, lash lifting, Uberlandia",
+    "title": "Dra. Lorrayne Mattos | Biomedical Aesthetics",
+    "description": "Advanced aesthetics, eye area harmonization, and natural facial rejuvenation with Dra. Lorrayne Mattos in Uberlandia - MG.",
+    "keywords": "Dra. Lorrayne Mattos, biomedical aesthetics, facial rejuvenation, brow design, lash lifting, Uberlandia",
     "pages": {
       "home": {
-        "title": "Lorrayne Mattos | Biomedical Aesthetics in Uberlandia",
-        "description": "Explore procedures, learn about the LM in-person course, and start a WhatsApp-first booking flow."
+        "title": "Dra. Lorrayne Mattos | Biomedical Aesthetics in Uberlandia",
+        "description": "Explore procedures, learn about LM mentorships, and start a WhatsApp-first booking flow."
       },
       "about": {
-        "title": "About | Lorrayne Mattos",
-        "description": "Meet Lorrayne Mattos, biomedical aesthetics professional focused on natural, safe, and personalized facial care."
+        "title": "About | Dra. Lorrayne Mattos",
+        "description": "Meet Dra. Lorrayne Mattos, biomedical aesthetics professional focused on natural, safe, and personalized facial care."
       },
       "procedures": {
-        "title": "Procedures | Lorrayne Mattos",
+        "title": "Procedures | Dra. Lorrayne Mattos",
         "description": "Browse the procedure catalog and learn about eye area and facial aesthetics services."
       },
       "course": {
-        "title": "LM In-Person Course | Lorrayne Mattos",
-        "description": "A practical course experience focused on technique, safety, and client-centered results."
+        "title": "LM Mentorships | Dra. Lorrayne Mattos",
+        "description": "A practical mentorship experience focused on technique, safety, and client-centered results."
       },
       "contact": {
-        "title": "Contact | Lorrayne Mattos",
+        "title": "Contact | Dra. Lorrayne Mattos",
         "description": "Book via WhatsApp and reach Lorrayne through Instagram or location links."
       },
       "privacy_policy": {
-        "title": "Privacy Policy | Lorrayne Mattos",
-        "description": "Read the initial privacy and data handling policy for the Lorrayne Mattos website."
+        "title": "Privacy Policy | Dra. Lorrayne Mattos",
+        "description": "Read the initial privacy and data handling policy for the Dra. Lorrayne Mattos website."
       }
     }
   },
@@ -36,13 +36,13 @@
     "back_to_procedures": "Back to procedures"
   },
   "header": {
-    "brand_name": "Lorrayne Mattos ✨",
+    "brand_name": "Dra. Lorrayne Mattos ✨",
     "tagline": "Biomedical aesthetics and natural facial harmony",
     "navigation": {
       "home": "Home",
       "about": "About",
       "procedures": "Procedures",
-      "course": "Course",
+      "course": "Mentorships",
       "contact": "Contact"
     },
     "primary_cta": "Book on WhatsApp",
@@ -56,7 +56,7 @@
     }
   },
   "footer": {
-    "copyright": "©2026 Lorrayne Mattos. All rights reserved.",
+    "copyright": "©2026 Dra. Lorrayne Mattos. All rights reserved.",
     "note": "Natural results, individualized planning, and a careful client experience.",
     "links": {
       "instagram": "Instagram",
@@ -87,9 +87,10 @@
         "details_cta": "View details"
       },
       "course_teaser": {
-        "title": "LM In-Person Course",
-        "description": "A practical training experience for professionals seeking technique, safety, and a better client journey.",
-        "cta": "Explore the course"
+        "title": "LM Mentorships",
+        "description": "A practical mentorship experience for professionals seeking technique, safety, and a better client journey.",
+        "cta": "Explore mentorships",
+        "coming_soon": "Mentorships will be launched soon."
       },
       "contact_strip": {
         "title": "Ready to start?",
@@ -100,11 +101,11 @@
       }
     },
     "about": {
-      "title": "About Lorrayne Mattos",
-      "intro": "Lorrayne Mattos is a biomedical aesthetics professional based in Uberlandia - MG, focused on facial care and eye area harmonization with a natural-result approach.",
+      "title": "About Dra. Lorrayne Mattos",
+      "intro": "Dra. Lorrayne Mattos is a biomedical aesthetics professional based in Uberlandia - MG, focused on facial care and eye area harmonization with a natural-result approach.",
       "story": [
         "Her positioning combines technique, individualized evaluation, and a careful client journey from the first conversation to the final result.",
-        "The website is being prepared to communicate procedures, course offerings, and trust signals with the same clarity used in the in-person experience."
+        "The website is being prepared to communicate procedures, mentorship offerings, and trust signals with the same clarity used in the in-person experience."
       ],
       "highlights": [
         "Advanced aesthetics",
@@ -128,11 +129,12 @@
     },
     "course": {
       "eyebrow": "Professional training",
-      "title": "LM In-Person Course",
+      "title": "LM Mentorships",
       "intro": "A practical and structured learning path for professionals who want to improve technique, safety, and client experience.",
       "highlights_title": "What the initial structure includes",
       "faq_title": "Frequently asked questions",
-      "booking_cta": "Ask about the course"
+      "booking_cta": "Ask about mentorships",
+      "coming_soon": "Mentorships will be launched soon."
     },
     "contact": {
       "title": "Booking and contact",
@@ -160,7 +162,7 @@
         },
         {
           "title": "Usage",
-          "body": "Data is used only to answer booking, service, and course inquiries."
+          "body": "Data is used only to answer booking, service, and mentorship inquiries."
         },
         {
           "title": "Updates",
@@ -171,7 +173,7 @@
   },
   "under_construction": {
     "title": "This page is under construction",
-    "description": "We are preparing this content. Use Home, Procedures, Course, or Contact for now.",
+    "description": "We are preparing this content. Use Home, Procedures, Mentorships, or Contact for now.",
     "back_home_label": "Back to home"
   }
 }

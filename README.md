@@ -1,8 +1,8 @@
 # lorrayne-mattos-webpage
 
-Marketing and portfolio website for **Lorrayne Mattos**
+Marketing and portfolio website for **Dra. Lorrayne Mattos**
 
-A multilingual lead-generation website for **Lorrayne Mattos**, a **Biomedica Esteta** based in **Uberlandia - MG**. The final site is planned to showcase procedures, support the `Curso Presencial LM`, build trust around natural facial rejuvenation and harmonizacao do olhar, and drive **WhatsApp-first booking**.
+A multilingual lead-generation website for **Dra. Lorrayne Mattos**, a **Biomedica Esteta** based in **Uberlandia - MG**. The final site is planned to showcase procedures, support the `Curso Presencial LM`, build trust around natural facial rejuvenation and harmonizacao do olhar, and drive **WhatsApp-first booking**.
 
 Current repository status: scaffolded Next.js app with App Router, locale-aware shell, minimal route placeholders, and Prismic adapters with safe fallbacks.
 

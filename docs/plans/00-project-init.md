@@ -12,7 +12,7 @@
   - `package-lock.json`
   - `README.md`
 - Additional root item present: `.git`
-- Bio Site reference confirmed at `docs/references/Lorrayne Mattos — Bio Sites.pdf`
+- Bio Site reference confirmed at `docs/references/Dra. Lorrayne Mattos — Bio Sites.pdf`
 - Instagram screenshot confirmed at `docs/references/instagram.png`
 
 ## Environment Versions
@@ -31,7 +31,7 @@
    - `docs/plans`
    - `docs/tech-specs`
 2. Copied the requested templates into active doc locations.
-3. Customized the copied docs for Lorrayne Mattos.
+3. Customized the copied docs for Dra. Lorrayne Mattos.
 4. Added ADR stubs for locale policy, content source strategy, and contact conversion strategy.
 
 ## Dependency Installation

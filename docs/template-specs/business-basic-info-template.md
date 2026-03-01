@@ -24,9 +24,9 @@ Recommended final file location per project:
   "primary_locale": "pt-BR",
   "contacts": {
     "primary_channel": "whatsapp",
-    "phone_e164": "+5500000000000",
+    "phone_e164": "+5534998989263",
     "phone_display": "+55 (00) 00000-0000",
-    "whatsapp_link": "https://wa.me/5500000000000?text=Hello",
+    "whatsapp_link": "https://wa.me/5534998989263?text=Hello",
     "email": "contato@brand.com"
   },
   "location": {
@@ -69,7 +69,7 @@ Recommended final file location per project:
     "hero_description": "One short supporting sentence"
   },
   "links": {
-    "primary_cta": "https://wa.me/5500000000000?text=Hello",
+    "primary_cta": "https://wa.me/5534998989263?text=Hello",
     "instagram": "https://www.instagram.com/brand/",
     "maps": "https://www.google.com/maps/search/?api=1&query=..."
   },

@@ -72,8 +72,8 @@ export default async function HomePage({ params }: HomePageProps) {
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[20.4rem] overflow-hidden rounded-[2rem] border border-white/40 bg-white/30 shadow-xl shadow-brand/10">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#ffffffaa,transparent_55%),linear-gradient(160deg,#f7ece2_0%,#e3c7b4_38%,#b8896d_100%)]" />
             <Image
-              src="/lorrayne.png"
-              alt="Lorrayne Mattos"
+              src="/lorrayne1.jpeg"
+              alt="Dra. Lorrayne Mattos"
               fill
               priority
               className="object-cover"
@@ -146,6 +146,9 @@ export default async function HomePage({ params }: HomePageProps) {
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-700 dark:text-slate-300">
             {home.course_teaser.description}
+          </p>
+          <p className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-medium text-amber-800 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
+            {home.course_teaser.coming_soon}
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-700 dark:text-slate-300">
             {course?.modules.slice(0, 3).map((module) => (
