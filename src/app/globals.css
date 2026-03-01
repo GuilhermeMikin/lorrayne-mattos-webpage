@@ -3,32 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --page-bg: #f8f1f4;
-  --page-text: #2b1620;
-  --surface: #fef5f8;
-  --surface-soft: #fceef3;
-  --surface-card: #fdf2f6;
-  --border-soft: #e8c5d2;
-  --text-soft: #5e4050;
-  --text-muted: #856877;
-  --brand: #a34768;
-  --brand-dark: #6e213f;
-  --brand-light: #e7b9ca;
+  --page-bg: #f4ece6;
+  --page-text: #3a2b24;
+  --surface: #fbf5ef;
+  --surface-soft: #f3e8de;
+  --surface-card: #f8eee5;
+  --border-soft: #d8c2b2;
+  --text-soft: #6f5648;
+  --text-muted: #9a7f70;
+  --brand: #b8896d;
+  --brand-dark: #8a624a;
+  --brand-light: #e7d1c3;
   color-scheme: light;
 }
 
 :root.dark {
-  --page-bg: #170c12;
-  --page-text: #f8eef2;
-  --surface: #24131b;
-  --surface-soft: #2d1822;
-  --surface-card: #1a0f14;
-  --border-soft: #563040;
-  --text-soft: #d9bec9;
-  --text-muted: #b894a3;
-  --brand: #d06b91;
-  --brand-dark: #a34768;
-  --brand-light: #e8b8cb;
+  --page-bg: #17110d;
+  --page-text: #f7efe8;
+  --surface: #241a14;
+  --surface-soft: #2c2019;
+  --surface-card: #1d150f;
+  --border-soft: #5f493c;
+  --text-soft: #dcc7b8;
+  --text-muted: #b89f8f;
+  --brand: #c89b7f;
+  --brand-dark: #a3775d;
+  --brand-light: #ecd8ca;
   color-scheme: dark;
 }
 
@@ -64,19 +64,19 @@ a {
 .section-card {
   @apply rounded-[2rem] shadow-sm;
   border: 1px solid var(--border-soft);
-  background-color: rgb(253 242 246 / 0.92);
+  background-color: rgb(248 238 229 / 0.92);
   backdrop-filter: blur(16px);
 }
 
 :root.dark .section-card {
-  background-color: rgb(36 19 27 / 0.88);
+  background-color: rgb(36 26 20 / 0.88);
 }
 
 .contact-pill {
   @apply inline-flex min-h-11 items-center rounded-full border px-5 py-3 text-sm font-semibold;
   border-color: var(--border-soft);
   color: var(--page-text);
-  background-color: rgb(253 242 246 / 0.9);
+  background-color: rgb(248 238 229 / 0.9);
 }
 
 .contact-pill:hover {
@@ -85,7 +85,7 @@ a {
 }
 
 :root.dark .contact-pill {
-  background-color: rgb(23 12 18 / 0.5);
+  background-color: rgb(23 17 13 / 0.5);
 }
 
 @layer utilities {
@@ -114,7 +114,7 @@ a {
     background-color: var(--brand-dark) !important;
   }
   .dark\:bg-brand\/20:is(.dark *) {
-    background-color: rgb(208 107 145 / 0.2) !important;
+    background-color: rgb(200 155 127 / 0.2) !important;
   }
   .dark\:text-brand-light:is(.dark *) {
     color: var(--brand-light) !important;
@@ -141,10 +141,10 @@ a {
     background-color: var(--surface-card) !important;
   }
   .bg-white\/90 {
-    background-color: rgb(253 242 246 / 0.95) !important;
+    background-color: rgb(248 238 229 / 0.95) !important;
   }
   .bg-white\/95 {
-    background-color: rgb(253 242 246 / 0.98) !important;
+    background-color: rgb(248 238 229 / 0.98) !important;
   }
   .text-slate-900 {
     color: var(--page-text) !important;
@@ -160,11 +160,12 @@ a {
   }
   .border-slate-200,
   .border-slate-300,
-  .border-slate-400 {
+  .border-slate-400,
+  .border-slate-500 {
     border-color: var(--border-soft) !important;
   }
   .dark\:bg-slate-950:is(.dark *) {
-    background-color: rgb(23 12 18 / 0.85) !important;
+    background-color: rgb(23 17 13 / 0.85) !important;
   }
   .dark\:bg-slate-950\/40:is(.dark *) {
     background-color: var(--surface-card) !important;
@@ -173,13 +174,16 @@ a {
     background-color: var(--surface) !important;
   }
   .dark\:bg-slate-900\/60:is(.dark *) {
-    background-color: rgb(23 12 18 / 0.6) !important;
+    background-color: rgb(23 17 13 / 0.6) !important;
   }
   .dark\:bg-slate-900\/90:is(.dark *) {
-    background-color: rgb(36 19 27 / 0.9) !important;
+    background-color: rgb(36 26 20 / 0.9) !important;
   }
   .dark\:bg-slate-900\/95:is(.dark *) {
-    background-color: rgb(36 19 27 / 0.95) !important;
+    background-color: rgb(36 26 20 / 0.95) !important;
+  }
+  .dark\:bg-slate-800:is(.dark *) {
+    background-color: var(--surface-soft) !important;
   }
   .dark\:text-slate-100:is(.dark *) {
     color: var(--page-text) !important;
@@ -197,6 +201,9 @@ a {
     border-color: var(--border-soft) !important;
   }
   .dark\:border-slate-700:is(.dark *) {
+    border-color: var(--border-soft) !important;
+  }
+  .dark\:border-slate-500:is(.dark *) {
     border-color: var(--border-soft) !important;
   }
   .dark\:shadow-black\/30:is(.dark *) {

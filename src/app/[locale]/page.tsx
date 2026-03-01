@@ -70,7 +70,7 @@ export default async function HomePage({ params }: HomePageProps) {
             </div>
           </div>
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[20.4rem] overflow-hidden rounded-[2rem] border border-white/40 bg-white/30 shadow-xl shadow-brand/10">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#ffffffaa,transparent_55%),linear-gradient(160deg,#f2e0e8_0%,#e0bcc8_38%,#b45273_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#ffffffaa,transparent_55%),linear-gradient(160deg,#f7ece2_0%,#e3c7b4_38%,#b8896d_100%)]" />
             <Image
               src="/lorrayne.png"
               alt="Lorrayne Mattos"
