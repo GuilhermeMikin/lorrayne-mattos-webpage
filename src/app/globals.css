@@ -5,9 +5,10 @@
 :root {
   --page-bg: #f8f1f4;
   --page-text: #2b1620;
-  --surface: #fff9fb;
-  --surface-soft: #f2e4ea;
-  --border-soft: #dfc5d0;
+  --surface: #fef5f8;
+  --surface-soft: #fceef3;
+  --surface-card: #fdf2f6;
+  --border-soft: #e8c5d2;
   --text-soft: #5e4050;
   --text-muted: #856877;
   --brand: #a34768;
@@ -20,7 +21,8 @@
   --page-bg: #170c12;
   --page-text: #f8eef2;
   --surface: #24131b;
-  --surface-soft: #301a24;
+  --surface-soft: #2d1822;
+  --surface-card: #1a0f14;
   --border-soft: #563040;
   --text-soft: #d9bec9;
   --text-muted: #b894a3;
@@ -37,18 +39,18 @@ html {
 body {
   @apply antialiased;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top right, rgb(231 185 202 / 0.8), transparent 28%),
-    radial-gradient(circle at bottom left, rgb(110 33 63 / 0.22), transparent 34%),
-    linear-gradient(180deg, rgb(248 241 244 / 0.98) 0%, rgb(244 228 234 / 1) 100%);
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: var(--page-text);
 }
 
 :root.dark body {
-  background:
-    radial-gradient(circle at top right, rgb(208 107 145 / 0.16), transparent 24%),
-    radial-gradient(circle at bottom left, rgb(255 255 255 / 0.05), transparent 30%),
-    linear-gradient(180deg, rgb(23 12 18 / 1) 0%, rgb(34 19 27 / 1) 100%);
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -62,19 +64,19 @@ a {
 .section-card {
   @apply rounded-[2rem] shadow-sm;
   border: 1px solid var(--border-soft);
-  background-color: rgb(255 249 251 / 0.84);
+  background-color: rgb(253 242 246 / 0.92);
   backdrop-filter: blur(16px);
 }
 
 :root.dark .section-card {
-  background-color: rgb(36 19 27 / 0.82);
+  background-color: rgb(36 19 27 / 0.88);
 }
 
 .contact-pill {
   @apply inline-flex min-h-11 items-center rounded-full border px-5 py-3 text-sm font-semibold;
   border-color: var(--border-soft);
   color: var(--page-text);
-  background-color: rgb(255 255 255 / 0.8);
+  background-color: rgb(253 242 246 / 0.9);
 }
 
 .contact-pill:hover {
@@ -129,17 +131,20 @@ a {
   .bg-white {
     background-color: var(--surface) !important;
   }
+  .bg-card-inner {
+    background-color: var(--surface-card) !important;
+  }
   .bg-white\/70 {
-    background-color: rgb(255 249 251 / 0.7) !important;
+    background-color: var(--surface-card) !important;
   }
   .bg-white\/80 {
-    background-color: rgb(255 249 251 / 0.8) !important;
+    background-color: var(--surface-card) !important;
   }
   .bg-white\/90 {
-    background-color: rgb(255 249 251 / 0.9) !important;
+    background-color: rgb(253 242 246 / 0.95) !important;
   }
   .bg-white\/95 {
-    background-color: rgb(255 249 251 / 0.95) !important;
+    background-color: rgb(253 242 246 / 0.98) !important;
   }
   .text-slate-900 {
     color: var(--page-text) !important;
@@ -160,6 +165,9 @@ a {
   }
   .dark\:bg-slate-950:is(.dark *) {
     background-color: rgb(23 12 18 / 0.85) !important;
+  }
+  .dark\:bg-slate-950\/40:is(.dark *) {
+    background-color: var(--surface-card) !important;
   }
   .dark\:bg-slate-900:is(.dark *) {
     background-color: var(--surface) !important;

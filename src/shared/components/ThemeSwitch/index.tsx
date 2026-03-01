@@ -48,8 +48,8 @@ export default function ThemeSwitch({ label, lightLabel, darkLabel }: ThemeSwitc
   };
 
   return (
-    <div className="flex items-center gap-2">
-      <span className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">
+    <div className="flex items-center gap-1.5">
+      <span className="text-[0.64rem] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
         {label}
       </span>
       <button
@@ -58,14 +58,14 @@ export default function ThemeSwitch({ label, lightLabel, darkLabel }: ThemeSwitc
         aria-checked={isDark}
         aria-label={`${label}: ${isDark ? darkLabel : lightLabel}`}
         onClick={handleToggle}
-        className={`relative inline-flex h-6 w-12 items-center rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-900 ${
+        className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-900 ${
           isDark ? "bg-brand" : "bg-slate-300"
         }`}
       >
         <span className="sr-only">{isDark ? darkLabel : lightLabel}</span>
         <span
-          className={`h-5 w-5 rounded-full bg-white shadow-sm transition-transform ${
-            isDark ? "translate-x-6" : "translate-x-1"
+          className={`h-4 w-4 rounded-full bg-white shadow-sm transition-transform ${
+            isDark ? "translate-x-5" : "translate-x-0.5"
           }`}
         />
       </button>

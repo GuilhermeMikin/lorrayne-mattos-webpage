@@ -53,28 +53,28 @@ function NavLinks({
       <Link
         href={getLocalePath(locale, "about")}
         onClick={onLinkClick}
-        className={`min-h-11 rounded-full px-4 py-3 hover:text-brand-dark dark:hover:text-brand-light ${isAbout ? "font-bold" : ""}`}
+        className={`min-h-9 rounded-full px-3 py-2 hover:text-brand-dark dark:hover:text-brand-light ${isAbout ? "font-bold" : ""}`}
       >
         {header.navigation.about}
       </Link>
       <Link
         href={getLocalePath(locale, "procedures")}
         onClick={onLinkClick}
-        className={`min-h-11 rounded-full px-4 py-3 hover:text-brand-dark dark:hover:text-brand-light ${isProcedures ? "font-bold" : ""}`}
+        className={`min-h-9 rounded-full px-3 py-2 hover:text-brand-dark dark:hover:text-brand-light ${isProcedures ? "font-bold" : ""}`}
       >
         {header.navigation.procedures}
       </Link>
       <Link
         href={getLocalePath(locale, "course/lm")}
         onClick={onLinkClick}
-        className={`min-h-11 rounded-full px-4 py-3 hover:text-brand-dark dark:hover:text-brand-light ${isCourse ? "font-bold" : ""}`}
+        className={`min-h-9 rounded-full px-3 py-2 hover:text-brand-dark dark:hover:text-brand-light ${isCourse ? "font-bold" : ""}`}
       >
         {header.navigation.course}
       </Link>
       <Link
         href={getLocalePath(locale, "contact")}
         onClick={onLinkClick}
-        className={`min-h-11 rounded-full px-4 py-3 hover:text-brand-dark dark:hover:text-brand-light ${isContact ? "font-bold" : ""}`}
+        className={`min-h-9 rounded-full px-3 py-2 hover:text-brand-dark dark:hover:text-brand-light ${isContact ? "font-bold" : ""}`}
       >
         {header.navigation.contact}
       </Link>
@@ -83,7 +83,7 @@ function NavLinks({
         target="_blank"
         rel="noreferrer"
         onClick={onLinkClick}
-        className="inline-flex min-h-11 items-center rounded-full bg-brand px-5 py-3 text-sm font-semibold text-white hover:bg-brand-dark dark:bg-brand-dark dark:hover:bg-brand"
+        className="inline-flex min-h-9 items-center rounded-full bg-brand px-4 py-2 text-[0.81rem] font-semibold text-white hover:bg-brand-dark dark:bg-brand-dark dark:hover:bg-brand"
       >
         {header.primary_cta}
       </a>
@@ -130,17 +130,17 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
 
   return (
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95">
-      <div className="container-page flex items-center justify-between gap-4 py-4">
+      <div className="container-page flex items-center justify-between gap-3 py-3">
         {/* Brand + tagline - always visible */}
         <Link href={getLocalePath(locale)} className="min-w-0 flex-1 space-y-0.5">
-          <span className="text-[1.7rem] font-bold leading-tight tracking-tight text-brand-dark dark:text-brand-light">
+          <span className="text-[1.44rem] font-bold leading-tight tracking-tight text-brand-dark dark:text-brand-light">
             {header.brand_name}
           </span>
-          <p className="text-[0.86rem] leading-tight text-slate-600 dark:text-slate-300">{header.tagline}</p>
+          <p className="text-[0.73rem] leading-tight text-slate-600 dark:text-slate-300">{header.tagline}</p>
         </Link>
 
         {/* Desktop nav - hidden on mobile */}
-        <nav className="hidden items-center gap-4 text-sm font-medium text-slate-700 dark:text-slate-200 md:flex">
+        <nav className="hidden items-center gap-3 text-[0.81rem] font-medium text-slate-700 dark:text-slate-200 md:flex">
           <NavLinks
             locale={locale}
             header={header}
@@ -154,12 +154,12 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
         </nav>
 
         {/* Desktop language + theme - hidden on mobile */}
-        <div className="hidden items-center gap-4 md:flex">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">
+        <div className="hidden items-center gap-3 md:flex">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[0.64rem] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
               {header.language_label}
             </span>
-            <div className="flex gap-2">
+            <div className="flex gap-1.5">
               {SUPPORTED_LOCALES.map((targetLocale) => {
                 const isActive = targetLocale === locale;
 
@@ -167,7 +167,7 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
                   <Link
                     key={targetLocale}
                     href={buildLocaleHref(pathname, targetLocale)}
-                    className={`rounded-full border px-3 py-1 text-xs font-semibold ${
+                    className={`rounded-full border px-2.5 py-0.5 text-[0.64rem] font-semibold ${
                       isActive
                         ? "border-brand-dark bg-brand-light text-brand-dark dark:border-brand dark:bg-brand/20 dark:text-brand-light"
                         : "border-slate-200 text-slate-600 hover:border-slate-300 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-500"
@@ -192,7 +192,7 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
           onClick={() => setIsMenuOpen((prev) => !prev)}
           aria-label={isMenuOpen ? header.menu_close_label : header.menu_open_label}
           aria-expanded={isMenuOpen}
-          className="flex h-10 w-10 flex-shrink-0 flex-col items-center justify-center gap-1.5 rounded-lg border border-slate-200 bg-white text-slate-700 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 md:hidden"
+          className="flex h-8 w-8 flex-shrink-0 flex-col items-center justify-center gap-1 rounded-lg border border-slate-200 bg-white text-slate-700 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 md:hidden"
         >
           <span
             className={`h-0.5 w-5 rounded-full bg-current transition-all ${
@@ -231,12 +231,12 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
 
             {/* Side panel - solid opaque background */}
             <aside
-              className={`absolute right-0 top-0 flex h-full w-80 max-w-[88vw] flex-col gap-6 border-l border-slate-200 bg-[var(--surface)] p-6 shadow-2xl transition-transform duration-300 ease-out dark:border-slate-800 dark:bg-[var(--surface)] ${
+              className={`absolute right-0 top-0 flex h-full w-80 max-w-[88vw] flex-col gap-5 border-l border-slate-200 bg-[var(--surface)] p-5 shadow-2xl transition-transform duration-300 ease-out dark:border-slate-800 dark:bg-[var(--surface)] ${
                 isMenuOpen ? "translate-x-0" : "translate-x-full"
               }`}
               style={{ backgroundColor: "var(--surface)" }}
             >
-          <nav className="flex flex-col gap-4 text-base font-medium text-slate-700 dark:text-slate-200">
+          <nav className="flex flex-col gap-3 text-sm font-medium text-slate-700 dark:text-slate-200">
             <NavLinks
               locale={locale}
               header={header}
@@ -250,12 +250,12 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
             />
           </nav>
 
-          <div className="mt-auto flex flex-col gap-4 border-t border-slate-200 pt-6 dark:border-slate-700">
-            <div className="flex flex-col gap-2">
-              <span className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">
+          <div className="mt-auto flex flex-col gap-3 border-t border-slate-200 pt-5 dark:border-slate-700">
+            <div className="flex flex-col gap-1.5">
+              <span className="text-[0.64rem] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
                 {header.language_label}
               </span>
-              <div className="flex gap-2">
+              <div className="flex gap-1.5">
                 {SUPPORTED_LOCALES.map((targetLocale) => {
                   const isActive = targetLocale === locale;
 
@@ -264,7 +264,7 @@ export default function Sidebar({ locale, header, siteSettings }: SidebarProps) 
                       key={targetLocale}
                       href={buildLocaleHref(pathname, targetLocale)}
                       onClick={closeMenu}
-                      className={`rounded-full border px-3 py-1 text-xs font-semibold ${
+                      className={`rounded-full border px-2.5 py-0.5 text-[0.64rem] font-semibold ${
                         isActive
                           ? "border-brand-dark bg-brand-light text-brand-dark dark:border-brand dark:bg-brand/20 dark:text-brand-light"
                           : "border-slate-200 text-slate-600 hover:border-slate-300 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-500"

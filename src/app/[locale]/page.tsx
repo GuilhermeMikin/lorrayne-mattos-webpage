@@ -63,13 +63,13 @@ export default async function HomePage({ params }: HomePageProps) {
               </a>
               <Link
                 href={getLocalePath(safeLocale, "procedures")}
-                className="inline-flex min-h-11 items-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 hover:border-brand hover:text-brand-dark dark:border-slate-700 dark:text-slate-200 dark:hover:border-brand"
+                className="inline-flex min-h-11 items-center rounded-full border border-brand-light bg-brand-light px-6 py-3 text-sm font-semibold text-brand-dark hover:bg-brand hover:text-white dark:border-brand/40 dark:bg-brand/20 dark:text-brand-light dark:hover:bg-brand dark:hover:text-white"
               >
                 {home.hero.secondary_cta}
               </Link>
             </div>
           </div>
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] border border-white/40 bg-white/30 shadow-xl shadow-brand/10">
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-[20.4rem] overflow-hidden rounded-[2rem] border border-white/40 bg-white/30 shadow-xl shadow-brand/10">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#ffffffaa,transparent_55%),linear-gradient(160deg,#f2e0e8_0%,#e0bcc8_38%,#b45273_100%)]" />
             <Image
               src="/lorrayne.png"

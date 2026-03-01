@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ContactQuickForm from "@/shared/components/ContactQuickForm";
 import { getLocalePath } from "@/shared/config/locales";
 import { buildAbsoluteUrl } from "@/shared/config/site";
@@ -62,6 +63,15 @@ export default async function ContactPage({ params }: ContactPageProps) {
           <a href={siteSettings.mapsHref} target="_blank" rel="noreferrer" className="contact-pill">
             {contact.location_label}
           </a>
+        </div>
+        <div className="relative mx-auto mt-8 aspect-square w-[70%]">
+          <Image
+            src="/lorrayne-qrcode.png"
+            alt="QR Code para contato"
+            fill
+            sizes="(max-width: 1024px) 100vw, 420px"
+            className="rounded-lg object-contain"
+          />
         </div>
       </aside>
     </div>
