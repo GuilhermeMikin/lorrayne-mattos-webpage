@@ -81,7 +81,7 @@ export default function LocaleDropdown({ locale, onSelect }: LocaleDropdownProps
       {isOpen && (
         <div
           role="listbox"
-          className="absolute right-0 top-full z-50 mt-1 min-w-[5.5rem] overflow-hidden rounded-lg border border-slate-200 bg-white py-1 shadow-lg dark:border-slate-700 dark:bg-slate-900"
+          className="absolute right-0 bottom-full z-50 mb-1 min-w-[5.5rem] overflow-hidden rounded-lg border border-slate-200 bg-white py-1 shadow-lg dark:border-slate-700 dark:bg-slate-900 md:bottom-auto md:mb-0 md:top-full md:mt-1"
         >
           {SUPPORTED_LOCALES.map((targetLocale) => {
             const isActive = targetLocale === locale;
