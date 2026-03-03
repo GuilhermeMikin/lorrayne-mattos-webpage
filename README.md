@@ -63,6 +63,13 @@ public/
 src/
 ├── app/
 ├── shared/
+│   ├── components/
+│   │   ├── LocaleDropdown/    # HeroUI-style language selector
+│   │   ├── Sidebar/            # Header nav, LocaleDropdown, ThemeSwitch
+│   │   └── ThemeSwitch/        # Sun/moon icon toggle for light/dark
+│   ├── config/
+│   ├── lang/
+│   └── ...
 ├── prismicio.ts
 └── middleware.ts
 README.md
@@ -78,7 +85,8 @@ Current features:
 - **Hidden default locale:** public URLs hide `pt-br`, while `en-us` remains prefixed
 - **WhatsApp-first conversion:** booking as the main CTA, with Instagram and Maps as secondary paths
 - **Prismic CMS:** procedures, course content, and visual portfolio media managed outside the repo
-- **Theme switching:** light/dark mode with persisted user preference
+- **Theme switching:** light/dark mode with sun icon (light) / moon icon (dark) button; persisted in `localStorage`
+- **Language selector:** HeroUI-style dropdown (`LocaleDropdown`) showing current locale; no visible label
 - **Localized routing:** canonical English slugs with localized aliases handled via redirects
 
 ## Supported Locales

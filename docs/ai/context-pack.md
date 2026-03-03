@@ -24,8 +24,10 @@ Routing/navigation edits:
 
 - Load `src/middleware.ts`
 - Load route helpers such as `src/shared/utils/routing/*`
-- Load navigation shell component
-- Load locale loader and supported-locale definitions
+- Load `src/shared/components/Sidebar/index.tsx` (header nav, LocaleDropdown, ThemeSwitch)
+- Load `src/shared/components/LocaleDropdown/index.tsx` (HeroUI-style language selector)
+- Load `src/shared/components/ThemeSwitch/index.tsx` (sun/moon icon toggle)
+- Load locale loader and supported-locale definitions (`src/shared/config/locales.ts`)
 
 Prismic/content-model edits:
 

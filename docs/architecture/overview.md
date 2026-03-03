@@ -34,7 +34,9 @@ This architecture serves a multilingual aesthetics marketing site focused on lea
   - Prismic fetch/adapters
   - Metadata builders
 - Client components:
-  - Navigation shell with locale switch and theme switch
+  - `Sidebar`: navigation shell, `LocaleDropdown`, `ThemeSwitch`
+  - `LocaleDropdown`: HeroUI-style language selector (no visible label); used in desktop header and mobile menu
+  - `ThemeSwitch`: sun icon (light mode) / moon icon (dark mode) button; no visible label; persists to `localStorage`
   - WhatsApp CTA entry points
   - Procedure gallery or before/after interactions
   - FAQ accordion, testimonial carousel, and minor interactive slices as needed
@@ -87,7 +89,8 @@ Initial content model target:
 ## Theme Behavior
 
 - Theme is controlled by class-based dark mode on the root HTML element (`html.dark`).
-- Header toggle writes user preference to `localStorage` under `lorrayne-mattos-theme`.
+- `ThemeSwitch` shows a sun icon in light mode and a moon icon in dark mode; clicking toggles the theme.
+- User preference is persisted in `localStorage` under `lorrayne-mattos-theme`.
 - Initial theme is applied early in `src/app/layout.tsx` to reduce hydration flash.
 
 ## SEO and Discovery Shape

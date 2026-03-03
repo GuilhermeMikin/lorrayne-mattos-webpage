@@ -1,7 +1,7 @@
 # Dra. Lorrayne Mattos Business Spec
 
 **Status:** Active  
-**Last updated:** 2026-03-01
+**Last updated:** 2026-03-03
 
 ---
 
@@ -160,12 +160,13 @@ Initial palette direction is based on the current Bio Site gradient and beauty/c
 
 - **Languages:** Portuguese (`pt-br`) default and English (`en-us`) secondary.
 - **Public locale policy:** `pt-br` hidden from public URLs; `en-us` remains prefixed.
-- **Themes:** Light and dark mode. Toggle next to the language selector. Works on all pages.
+- **Language selector:** HeroUI-style dropdown (`LocaleDropdown`) showing the current locale label (e.g. "Português", "English"); no visible "Idioma"/"Language" label. Used in both desktop header and mobile slide-out menu.
+- **Themes:** Light and dark mode. Icon-only button: sun when in light mode, moon when in dark mode. No visible "Tema"/"Theme" label. Persisted in `localStorage`. Works on all pages.
 
 ## Navigation and Responsive Behavior
 
-- **Mobile menu:** Hamburger menu with quick access to booking CTA, procedures, course, and about/contact pages.
-- **Header priority:** Brand name, locale switcher, theme switch, and an always-visible booking action.
+- **Mobile menu:** Hamburger menu with quick access to booking CTA, procedures, course, and about/contact pages. Language dropdown and theme button appear at the bottom of the slide-out panel.
+- **Header priority:** Brand name, language dropdown, theme button, and an always-visible booking action.
 
 ---
 
